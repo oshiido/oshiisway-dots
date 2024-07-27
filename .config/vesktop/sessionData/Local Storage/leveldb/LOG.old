@@ -1,0 +1,20 @@
+2024/07/26-18:32:06.791 e4f8 Reusing MANIFEST /home/oshiido/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/07/26-18:32:06.794 e4f8 Recovering log #174
+2024/07/26-18:32:06.794 e4f8 Level-0 table #177: started
+2024/07/26-18:32:06.795 e4f8 Level-0 table #177: 17782 bytes OK
+2024/07/26-18:32:06.796 e4f8 Delete type=0 #174
+2024/07/26-18:46:43.318 e4fa Level-0 table #180: started
+2024/07/26-18:46:43.319 e4fa Level-0 table #180: 21922 bytes OK
+2024/07/26-18:46:43.320 e4fa Delete type=0 #178
+2024/07/26-18:46:43.320 e4fa Compacting 4@0 + 1@1 files
+2024/07/26-18:46:43.321 e4fa Generated table #181@0: 54 keys, 44589 bytes
+2024/07/26-18:46:43.321 e4fa Compacted 4@0 + 1@1 files => 44589 bytes
+2024/07/26-18:46:43.322 e4fa compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/07/26-18:46:43.322 e4fa Delete type=2 #171
+2024/07/26-18:46:43.322 e4fa Delete type=2 #173
+2024/07/26-18:46:43.322 e4fa Delete type=2 #175
+2024/07/26-18:46:43.322 e4fa Delete type=2 #177
+2024/07/26-18:46:43.322 e4fa Delete type=2 #180
+2024/07/26-18:48:55.225 e4fa Level-0 table #183: started
+2024/07/26-18:48:55.226 e4fa Level-0 table #183: 17328 bytes OK
+2024/07/26-18:48:55.228 e4fa Delete type=0 #179

@@ -1,0 +1,577 @@
+2024-07-10T21:37:26.742Z [Modules] Modules initializing
+2024-07-10T21:37:26.742Z [Modules] Distribution: remote
+2024-07-10T21:37:26.742Z [Modules] Host updates: enabled
+2024-07-10T21:37:26.742Z [Modules] Module updates: enabled
+2024-07-10T21:37:26.742Z [Modules] Module install path: /home/oshiido/.config/discord/0.0.59/modules
+2024-07-10T21:37:26.742Z [Modules] Module installed file path: /home/oshiido/.config/discord/0.0.59/modules/installed.json
+2024-07-10T21:37:26.742Z [Modules] Module download path: /home/oshiido/.config/discord/0.0.59/modules/pending
+2024-07-10T21:37:26.867Z [Modules] Bootstrapping...
+2024-07-10T21:37:26.867Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-07-10T21:37:26.869Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-07-10T21:37:26.869Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-07-10T21:37:26.870Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-07-10T21:37:26.870Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-07-10T21:37:26.871Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-07-10T21:37:26.871Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-07-10T21:37:26.872Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-07-10T21:37:26.872Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-07-10T21:37:26.872Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-07-10T21:37:26.872Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-07-10T21:37:26.872Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-07-10T21:37:26.873Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-07-10T21:37:26.873Z [Modules] Checking for host updates.
+2024-07-10T21:37:27.092Z [Modules] Host is up to date.
+2024-07-10T21:37:27.093Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-10T21:37:27.174Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-07-10T21:37:27.174Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-07-10T21:37:27.174Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-07-10T21:37:27.174Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-07-10T21:37:27.174Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-07-10T21:37:27.174Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-07-10T21:37:27.174Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-07-10T21:37:27.174Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip
+2024-07-10T21:37:27.433Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 1%
+2024-07-10T21:37:27.441Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 2%
+2024-07-10T21:37:27.450Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 3%
+2024-07-10T21:37:27.455Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 4%
+2024-07-10T21:37:27.465Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 5%
+2024-07-10T21:37:27.470Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 6%
+2024-07-10T21:37:27.475Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 7%
+2024-07-10T21:37:27.484Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 8%
+2024-07-10T21:37:27.487Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 9%
+2024-07-10T21:37:27.490Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 10%
+2024-07-10T21:37:27.492Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 11%
+2024-07-10T21:37:27.494Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 12%
+2024-07-10T21:37:27.507Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 15%
+2024-07-10T21:37:27.510Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 17%
+2024-07-10T21:37:27.514Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 19%
+2024-07-10T21:37:27.532Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 20%
+2024-07-10T21:37:27.535Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 23%
+2024-07-10T21:37:27.537Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 24%
+2024-07-10T21:37:27.538Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 25%
+2024-07-10T21:37:27.542Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 28%
+2024-07-10T21:37:27.550Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 31%
+2024-07-10T21:37:27.553Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 34%
+2024-07-10T21:37:27.558Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 35%
+2024-07-10T21:37:27.560Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 36%
+2024-07-10T21:37:27.562Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 38%
+2024-07-10T21:37:27.564Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 41%
+2024-07-10T21:37:27.564Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 42%
+2024-07-10T21:37:27.568Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 45%
+2024-07-10T21:37:27.568Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 46%
+2024-07-10T21:37:27.570Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 49%
+2024-07-10T21:37:27.571Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 52%
+2024-07-10T21:37:27.573Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 53%
+2024-07-10T21:37:27.575Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 55%
+2024-07-10T21:37:27.590Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 58%
+2024-07-10T21:37:27.590Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 62%
+2024-07-10T21:37:27.591Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 68%
+2024-07-10T21:37:27.594Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 71%
+2024-07-10T21:37:27.594Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 75%
+2024-07-10T21:37:27.595Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 80%
+2024-07-10T21:37:27.596Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 87%
+2024-07-10T21:37:27.597Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 90%
+2024-07-10T21:37:27.612Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 92%
+2024-07-10T21:37:27.613Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 94%
+2024-07-10T21:37:27.613Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 98%
+2024-07-10T21:37:27.615Z [Modules] Streaming discord_desktop_core@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip: 100%
+2024-07-10T21:37:27.616Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-07-10T21:37:27.616Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip
+2024-07-10T21:37:27.775Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 2%
+2024-07-10T21:37:27.775Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 6%
+2024-07-10T21:37:27.776Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 7%
+2024-07-10T21:37:27.777Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 10%
+2024-07-10T21:37:27.777Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 13%
+2024-07-10T21:37:27.778Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 15%
+2024-07-10T21:37:27.778Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 18%
+2024-07-10T21:37:27.782Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 21%
+2024-07-10T21:37:27.782Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 22%
+2024-07-10T21:37:27.782Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 28%
+2024-07-10T21:37:27.782Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 29%
+2024-07-10T21:37:27.783Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 32%
+2024-07-10T21:37:27.784Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 36%
+2024-07-10T21:37:27.784Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 38%
+2024-07-10T21:37:27.787Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 41%
+2024-07-10T21:37:27.787Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 45%
+2024-07-10T21:37:27.788Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 48%
+2024-07-10T21:37:27.788Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 49%
+2024-07-10T21:37:27.793Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 52%
+2024-07-10T21:37:27.793Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 53%
+2024-07-10T21:37:27.793Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 56%
+2024-07-10T21:37:27.795Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 59%
+2024-07-10T21:37:27.795Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 62%
+2024-07-10T21:37:27.796Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 64%
+2024-07-10T21:37:27.796Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 67%
+2024-07-10T21:37:27.803Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 68%
+2024-07-10T21:37:27.803Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 71%
+2024-07-10T21:37:27.804Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 74%
+2024-07-10T21:37:27.804Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 78%
+2024-07-10T21:37:27.806Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 81%
+2024-07-10T21:37:27.806Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 85%
+2024-07-10T21:37:27.806Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 86%
+2024-07-10T21:37:27.808Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 89%
+2024-07-10T21:37:27.809Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 92%
+2024-07-10T21:37:27.809Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 93%
+2024-07-10T21:37:27.810Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 96%
+2024-07-10T21:37:27.810Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 97%
+2024-07-10T21:37:27.811Z [Modules] Streaming discord_erlpack@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip: 100%
+2024-07-10T21:37:27.811Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-07-10T21:37:27.811Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip
+2024-07-10T21:37:27.994Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 1%
+2024-07-10T21:37:27.996Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 2%
+2024-07-10T21:37:27.996Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 3%
+2024-07-10T21:37:27.997Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 4%
+2024-07-10T21:37:27.998Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 5%
+2024-07-10T21:37:27.998Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 6%
+2024-07-10T21:37:27.999Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 7%
+2024-07-10T21:37:27.999Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 8%
+2024-07-10T21:37:28.002Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 9%
+2024-07-10T21:37:28.002Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 10%
+2024-07-10T21:37:28.002Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 11%
+2024-07-10T21:37:28.003Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 12%
+2024-07-10T21:37:28.003Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 13%
+2024-07-10T21:37:28.006Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 14%
+2024-07-10T21:37:28.010Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 15%
+2024-07-10T21:37:28.011Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 16%
+2024-07-10T21:37:28.013Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 17%
+2024-07-10T21:37:28.020Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 18%
+2024-07-10T21:37:28.027Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 19%
+2024-07-10T21:37:28.028Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 20%
+2024-07-10T21:37:28.028Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 21%
+2024-07-10T21:37:28.030Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 22%
+2024-07-10T21:37:28.030Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 24%
+2024-07-10T21:37:28.035Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 25%
+2024-07-10T21:37:28.035Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 26%
+2024-07-10T21:37:28.035Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 27%
+2024-07-10T21:37:28.039Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 28%
+2024-07-10T21:37:28.039Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 29%
+2024-07-10T21:37:28.039Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 30%
+2024-07-10T21:37:28.040Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 31%
+2024-07-10T21:37:28.041Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 32%
+2024-07-10T21:37:28.044Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 33%
+2024-07-10T21:37:28.044Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 34%
+2024-07-10T21:37:28.046Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 35%
+2024-07-10T21:37:28.047Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 36%
+2024-07-10T21:37:28.047Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 37%
+2024-07-10T21:37:28.049Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 38%
+2024-07-10T21:37:28.049Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 39%
+2024-07-10T21:37:28.058Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 40%
+2024-07-10T21:37:28.061Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 41%
+2024-07-10T21:37:28.061Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 42%
+2024-07-10T21:37:28.062Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 43%
+2024-07-10T21:37:28.063Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 44%
+2024-07-10T21:37:28.065Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 45%
+2024-07-10T21:37:28.067Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 46%
+2024-07-10T21:37:28.067Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 47%
+2024-07-10T21:37:28.069Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 48%
+2024-07-10T21:37:28.069Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 49%
+2024-07-10T21:37:28.071Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 50%
+2024-07-10T21:37:28.071Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 51%
+2024-07-10T21:37:28.073Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 52%
+2024-07-10T21:37:28.075Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 53%
+2024-07-10T21:37:28.076Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 54%
+2024-07-10T21:37:28.076Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 55%
+2024-07-10T21:37:28.078Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 56%
+2024-07-10T21:37:28.078Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 57%
+2024-07-10T21:37:28.080Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 58%
+2024-07-10T21:37:28.082Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 59%
+2024-07-10T21:37:28.083Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 60%
+2024-07-10T21:37:28.086Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 61%
+2024-07-10T21:37:28.086Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 62%
+2024-07-10T21:37:28.090Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 63%
+2024-07-10T21:37:28.093Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 64%
+2024-07-10T21:37:28.096Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 66%
+2024-07-10T21:37:28.096Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 67%
+2024-07-10T21:37:28.096Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 68%
+2024-07-10T21:37:28.097Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 69%
+2024-07-10T21:37:28.097Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 70%
+2024-07-10T21:37:28.098Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 71%
+2024-07-10T21:37:28.098Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 72%
+2024-07-10T21:37:28.099Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 73%
+2024-07-10T21:37:28.108Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 74%
+2024-07-10T21:37:28.108Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 76%
+2024-07-10T21:37:28.109Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 77%
+2024-07-10T21:37:28.112Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 78%
+2024-07-10T21:37:28.112Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 79%
+2024-07-10T21:37:28.113Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 81%
+2024-07-10T21:37:28.113Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 82%
+2024-07-10T21:37:28.113Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 83%
+2024-07-10T21:37:28.114Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 84%
+2024-07-10T21:37:28.116Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 85%
+2024-07-10T21:37:28.121Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 86%
+2024-07-10T21:37:28.123Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 87%
+2024-07-10T21:37:28.124Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 88%
+2024-07-10T21:37:28.124Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 89%
+2024-07-10T21:37:28.126Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 90%
+2024-07-10T21:37:28.126Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 91%
+2024-07-10T21:37:28.126Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 92%
+2024-07-10T21:37:28.127Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 93%
+2024-07-10T21:37:28.129Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 95%
+2024-07-10T21:37:28.135Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 96%
+2024-07-10T21:37:28.136Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 97%
+2024-07-10T21:37:28.136Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 98%
+2024-07-10T21:37:28.139Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 99%
+2024-07-10T21:37:28.139Z [Modules] Streaming discord_spellcheck@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip: 100%
+2024-07-10T21:37:28.140Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-07-10T21:37:28.140Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip
+2024-07-10T21:37:28.299Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 1%
+2024-07-10T21:37:28.307Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 3%
+2024-07-10T21:37:28.307Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 5%
+2024-07-10T21:37:28.307Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 9%
+2024-07-10T21:37:28.308Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 11%
+2024-07-10T21:37:28.308Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 15%
+2024-07-10T21:37:28.308Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 19%
+2024-07-10T21:37:28.309Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 29%
+2024-07-10T21:37:28.310Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 31%
+2024-07-10T21:37:28.311Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 33%
+2024-07-10T21:37:28.311Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 35%
+2024-07-10T21:37:28.313Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 37%
+2024-07-10T21:37:28.313Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 38%
+2024-07-10T21:37:28.315Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 40%
+2024-07-10T21:37:28.315Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 43%
+2024-07-10T21:37:28.316Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 44%
+2024-07-10T21:37:28.317Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 46%
+2024-07-10T21:37:28.317Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 48%
+2024-07-10T21:37:28.317Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 49%
+2024-07-10T21:37:28.319Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 51%
+2024-07-10T21:37:28.319Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 53%
+2024-07-10T21:37:28.319Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 54%
+2024-07-10T21:37:28.321Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 55%
+2024-07-10T21:37:28.322Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 57%
+2024-07-10T21:37:28.322Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 59%
+2024-07-10T21:37:28.322Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 60%
+2024-07-10T21:37:28.327Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 62%
+2024-07-10T21:37:28.327Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 65%
+2024-07-10T21:37:28.327Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 66%
+2024-07-10T21:37:28.330Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 68%
+2024-07-10T21:37:28.330Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 70%
+2024-07-10T21:37:28.330Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 74%
+2024-07-10T21:37:28.332Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 76%
+2024-07-10T21:37:28.332Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 78%
+2024-07-10T21:37:28.332Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 82%
+2024-07-10T21:37:28.333Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 83%
+2024-07-10T21:37:28.333Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 84%
+2024-07-10T21:37:28.336Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 86%
+2024-07-10T21:37:28.336Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 88%
+2024-07-10T21:37:28.336Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 90%
+2024-07-10T21:37:28.336Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 91%
+2024-07-10T21:37:28.337Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 93%
+2024-07-10T21:37:28.337Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 95%
+2024-07-10T21:37:28.338Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 98%
+2024-07-10T21:37:28.348Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 99%
+2024-07-10T21:37:28.348Z [Modules] Streaming discord_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip: 100%
+2024-07-10T21:37:28.349Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-07-10T21:37:28.349Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip
+2024-07-10T21:37:28.534Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 1%
+2024-07-10T21:37:28.536Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 2%
+2024-07-10T21:37:28.539Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 3%
+2024-07-10T21:37:28.540Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 4%
+2024-07-10T21:37:28.543Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 5%
+2024-07-10T21:37:28.544Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 6%
+2024-07-10T21:37:28.548Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 7%
+2024-07-10T21:37:28.551Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 8%
+2024-07-10T21:37:28.555Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 9%
+2024-07-10T21:37:28.559Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 10%
+2024-07-10T21:37:28.561Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 11%
+2024-07-10T21:37:28.562Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 12%
+2024-07-10T21:37:28.567Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 13%
+2024-07-10T21:37:28.570Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 14%
+2024-07-10T21:37:28.570Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 15%
+2024-07-10T21:37:28.573Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 16%
+2024-07-10T21:37:28.576Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 17%
+2024-07-10T21:37:28.582Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 18%
+2024-07-10T21:37:28.585Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 19%
+2024-07-10T21:37:28.589Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 20%
+2024-07-10T21:37:28.594Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 21%
+2024-07-10T21:37:28.595Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 22%
+2024-07-10T21:37:28.598Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 23%
+2024-07-10T21:37:28.603Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 24%
+2024-07-10T21:37:28.603Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 25%
+2024-07-10T21:37:28.606Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 26%
+2024-07-10T21:37:28.611Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 27%
+2024-07-10T21:37:28.612Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 28%
+2024-07-10T21:37:28.621Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 29%
+2024-07-10T21:37:28.623Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 30%
+2024-07-10T21:37:28.626Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 31%
+2024-07-10T21:37:28.628Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 32%
+2024-07-10T21:37:28.630Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 33%
+2024-07-10T21:37:28.635Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 34%
+2024-07-10T21:37:28.637Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 35%
+2024-07-10T21:37:28.640Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 36%
+2024-07-10T21:37:28.641Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 37%
+2024-07-10T21:37:28.643Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 38%
+2024-07-10T21:37:28.650Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 39%
+2024-07-10T21:37:28.654Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 40%
+2024-07-10T21:37:28.658Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 41%
+2024-07-10T21:37:28.659Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 42%
+2024-07-10T21:37:28.662Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 43%
+2024-07-10T21:37:28.665Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 44%
+2024-07-10T21:37:28.670Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 45%
+2024-07-10T21:37:28.671Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 46%
+2024-07-10T21:37:28.674Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 47%
+2024-07-10T21:37:28.676Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 48%
+2024-07-10T21:37:28.678Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 49%
+2024-07-10T21:37:28.679Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 50%
+2024-07-10T21:37:28.681Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 51%
+2024-07-10T21:37:28.686Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 52%
+2024-07-10T21:37:28.689Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 53%
+2024-07-10T21:37:28.692Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 54%
+2024-07-10T21:37:28.695Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 55%
+2024-07-10T21:37:28.698Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 56%
+2024-07-10T21:37:28.700Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 57%
+2024-07-10T21:37:28.705Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 58%
+2024-07-10T21:37:28.706Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 59%
+2024-07-10T21:37:28.710Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 60%
+2024-07-10T21:37:28.712Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 61%
+2024-07-10T21:37:28.714Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 62%
+2024-07-10T21:37:28.717Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 63%
+2024-07-10T21:37:28.719Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 64%
+2024-07-10T21:37:28.722Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 65%
+2024-07-10T21:37:28.723Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 66%
+2024-07-10T21:37:28.727Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 67%
+2024-07-10T21:37:28.738Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 68%
+2024-07-10T21:37:28.741Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 69%
+2024-07-10T21:37:28.742Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 70%
+2024-07-10T21:37:28.744Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 71%
+2024-07-10T21:37:28.747Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 72%
+2024-07-10T21:37:28.749Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 73%
+2024-07-10T21:37:28.751Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 74%
+2024-07-10T21:37:28.755Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 75%
+2024-07-10T21:37:28.757Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 76%
+2024-07-10T21:37:28.762Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 77%
+2024-07-10T21:37:28.764Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 78%
+2024-07-10T21:37:28.766Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 79%
+2024-07-10T21:37:28.768Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 80%
+2024-07-10T21:37:28.773Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 81%
+2024-07-10T21:37:28.775Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 82%
+2024-07-10T21:37:28.779Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 83%
+2024-07-10T21:37:28.781Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 84%
+2024-07-10T21:37:28.785Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 85%
+2024-07-10T21:37:28.788Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 86%
+2024-07-10T21:37:28.789Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 87%
+2024-07-10T21:37:28.793Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 88%
+2024-07-10T21:37:28.794Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 89%
+2024-07-10T21:37:28.800Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 90%
+2024-07-10T21:37:28.803Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 91%
+2024-07-10T21:37:28.806Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 92%
+2024-07-10T21:37:28.809Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 93%
+2024-07-10T21:37:28.812Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 94%
+2024-07-10T21:37:28.815Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 95%
+2024-07-10T21:37:28.816Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 96%
+2024-07-10T21:37:28.820Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 97%
+2024-07-10T21:37:28.822Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 98%
+2024-07-10T21:37:28.825Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 99%
+2024-07-10T21:37:28.826Z [Modules] Streaming discord_voice@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip: 100%
+2024-07-10T21:37:28.827Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-07-10T21:37:28.827Z [Modules] Streaming discord_zstd@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip
+2024-07-10T21:37:28.999Z [Modules] Streaming discord_zstd@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 16%
+2024-07-10T21:37:29.124Z [Modules] Streaming discord_zstd@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 19%
+2024-07-10T21:37:29.124Z [Modules] Streaming discord_zstd@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 35%
+2024-07-10T21:37:29.125Z [Modules] Streaming discord_zstd@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 68%
+2024-07-10T21:37:29.125Z [Modules] Streaming discord_zstd@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip: 100%
+2024-07-10T21:37:29.125Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-07-10T21:37:29.126Z [Modules] Installing updates...
+2024-07-10T21:37:29.126Z [Modules] Installing discord_desktop_core@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_desktop_core-1.zip
+2024-07-10T21:37:29.166Z [Modules] Installing discord_erlpack@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_erlpack-1.zip
+2024-07-10T21:37:29.195Z [Modules] Installing discord_spellcheck@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_spellcheck-1.zip
+2024-07-10T21:37:29.518Z [Modules] Installing discord_utils@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_utils-1.zip
+2024-07-10T21:37:29.581Z [Modules] Installing discord_voice@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_voice-1.zip
+2024-07-10T21:37:29.862Z [Modules] Installing discord_zstd@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_zstd-1.zip
+2024-07-10T21:37:29.867Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-07-10T21:37:29.867Z [Modules] Checking for host updates.
+2024-07-10T21:37:30.022Z [Modules] Host is up to date.
+2024-07-10T21:37:30.022Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-10T21:37:30.024Z [Modules] No module updates available.
+2024-07-10T21:37:31.104Z [Modules] Starting to install discord_krisp...
+2024-07-10T21:37:31.104Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-07-10T21:37:31.104Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip
+2024-07-10T21:37:31.108Z [Modules] Starting to install discord_game_utils...
+2024-07-10T21:37:31.291Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 1%
+2024-07-10T21:37:31.297Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 2%
+2024-07-10T21:37:31.299Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 3%
+2024-07-10T21:37:31.302Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 4%
+2024-07-10T21:37:31.303Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 5%
+2024-07-10T21:37:31.309Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 6%
+2024-07-10T21:37:31.320Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 7%
+2024-07-10T21:37:31.321Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 8%
+2024-07-10T21:37:31.326Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 9%
+2024-07-10T21:37:31.331Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 10%
+2024-07-10T21:37:31.333Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 11%
+2024-07-10T21:37:31.336Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 12%
+2024-07-10T21:37:31.341Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 13%
+2024-07-10T21:37:31.366Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 14%
+2024-07-10T21:37:31.367Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 15%
+2024-07-10T21:37:31.369Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 16%
+2024-07-10T21:37:31.372Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 17%
+2024-07-10T21:37:31.373Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 18%
+2024-07-10T21:37:31.373Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 19%
+2024-07-10T21:37:31.373Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 20%
+2024-07-10T21:37:31.374Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 21%
+2024-07-10T21:37:31.374Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 22%
+2024-07-10T21:37:31.386Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 23%
+2024-07-10T21:37:31.388Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 24%
+2024-07-10T21:37:31.391Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 25%
+2024-07-10T21:37:31.394Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 26%
+2024-07-10T21:37:31.400Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 27%
+2024-07-10T21:37:31.402Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 28%
+2024-07-10T21:37:31.404Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 29%
+2024-07-10T21:37:31.406Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 30%
+2024-07-10T21:37:31.409Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 31%
+2024-07-10T21:37:31.413Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 32%
+2024-07-10T21:37:31.413Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 33%
+2024-07-10T21:37:31.415Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 34%
+2024-07-10T21:37:31.418Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 35%
+2024-07-10T21:37:31.420Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 36%
+2024-07-10T21:37:31.425Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 37%
+2024-07-10T21:37:31.428Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 38%
+2024-07-10T21:37:31.432Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 39%
+2024-07-10T21:37:31.434Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 40%
+2024-07-10T21:37:31.437Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 41%
+2024-07-10T21:37:31.441Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 42%
+2024-07-10T21:37:31.443Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 43%
+2024-07-10T21:37:31.450Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 44%
+2024-07-10T21:37:31.453Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 45%
+2024-07-10T21:37:31.456Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 46%
+2024-07-10T21:37:31.458Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 47%
+2024-07-10T21:37:31.461Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 48%
+2024-07-10T21:37:31.462Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 49%
+2024-07-10T21:37:31.465Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 50%
+2024-07-10T21:37:31.471Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 51%
+2024-07-10T21:37:31.475Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 52%
+2024-07-10T21:37:31.479Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 53%
+2024-07-10T21:37:31.482Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 54%
+2024-07-10T21:37:31.486Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 55%
+2024-07-10T21:37:31.487Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 56%
+2024-07-10T21:37:31.491Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 57%
+2024-07-10T21:37:31.493Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 58%
+2024-07-10T21:37:31.495Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 59%
+2024-07-10T21:37:31.497Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 60%
+2024-07-10T21:37:31.502Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 61%
+2024-07-10T21:37:31.504Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 62%
+2024-07-10T21:37:31.511Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 63%
+2024-07-10T21:37:31.512Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 64%
+2024-07-10T21:37:31.516Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 65%
+2024-07-10T21:37:31.519Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 66%
+2024-07-10T21:37:31.520Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 67%
+2024-07-10T21:37:31.525Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 68%
+2024-07-10T21:37:31.530Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 69%
+2024-07-10T21:37:31.534Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 70%
+2024-07-10T21:37:31.538Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 71%
+2024-07-10T21:37:31.541Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 72%
+2024-07-10T21:37:31.545Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 73%
+2024-07-10T21:37:31.558Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 74%
+2024-07-10T21:37:31.561Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 75%
+2024-07-10T21:37:31.563Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 76%
+2024-07-10T21:37:31.566Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 77%
+2024-07-10T21:37:31.569Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 78%
+2024-07-10T21:37:31.572Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 79%
+2024-07-10T21:37:31.594Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 80%
+2024-07-10T21:37:31.595Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 81%
+2024-07-10T21:37:31.595Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 82%
+2024-07-10T21:37:31.595Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 83%
+2024-07-10T21:37:31.596Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 84%
+2024-07-10T21:37:31.606Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 85%
+2024-07-10T21:37:31.606Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 86%
+2024-07-10T21:37:31.625Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 87%
+2024-07-10T21:37:31.633Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 88%
+2024-07-10T21:37:31.635Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 89%
+2024-07-10T21:37:31.638Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 90%
+2024-07-10T21:37:31.643Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 91%
+2024-07-10T21:37:31.643Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 92%
+2024-07-10T21:37:31.645Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 93%
+2024-07-10T21:37:31.648Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 94%
+2024-07-10T21:37:31.650Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 95%
+2024-07-10T21:37:31.660Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 96%
+2024-07-10T21:37:31.662Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 97%
+2024-07-10T21:37:31.664Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 98%
+2024-07-10T21:37:31.666Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 99%
+2024-07-10T21:37:31.668Z [Modules] Streaming discord_krisp@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip: 100%
+2024-07-10T21:37:31.668Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-07-10T21:37:31.668Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip
+2024-07-10T21:37:31.668Z [Modules] Installing discord_krisp@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_krisp-1.zip
+2024-07-10T21:37:31.845Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 2%
+2024-07-10T21:37:31.849Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 5%
+2024-07-10T21:37:31.849Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 7%
+2024-07-10T21:37:31.849Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 10%
+2024-07-10T21:37:31.851Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 12%
+2024-07-10T21:37:31.851Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 15%
+2024-07-10T21:37:31.851Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 17%
+2024-07-10T21:37:31.852Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 18%
+2024-07-10T21:37:31.852Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 21%
+2024-07-10T21:37:31.853Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 24%
+2024-07-10T21:37:31.853Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 26%
+2024-07-10T21:37:31.855Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 28%
+2024-07-10T21:37:31.862Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-07-10T21:37:31.866Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 33%
+2024-07-10T21:37:31.872Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 36%
+2024-07-10T21:37:31.872Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 38%
+2024-07-10T21:37:31.872Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 40%
+2024-07-10T21:37:31.872Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 43%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 45%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 47%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 50%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 52%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 54%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 57%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 59%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 62%
+2024-07-10T21:37:31.873Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 66%
+2024-07-10T21:37:31.874Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 69%
+2024-07-10T21:37:31.874Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 71%
+2024-07-10T21:37:31.874Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 75%
+2024-07-10T21:37:31.874Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 76%
+2024-07-10T21:37:31.877Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 79%
+2024-07-10T21:37:31.878Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 81%
+2024-07-10T21:37:31.878Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 84%
+2024-07-10T21:37:31.878Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 86%
+2024-07-10T21:37:31.880Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 89%
+2024-07-10T21:37:31.880Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 92%
+2024-07-10T21:37:31.880Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 95%
+2024-07-10T21:37:31.884Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 98%
+2024-07-10T21:37:31.884Z [Modules] Streaming discord_game_utils@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip: 100%
+2024-07-10T21:37:31.885Z [Modules] Finished module downloads. [success: 2] [failure: 0]
+2024-07-10T21:37:31.885Z [Modules] Installing discord_game_utils@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_game_utils-1.zip
+2024-07-10T21:37:31.918Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-07-10T21:37:32.363Z [Modules] Checking for host updates.
+2024-07-10T21:37:32.409Z [Modules] Starting to install discord_rpc...
+2024-07-10T21:37:32.410Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-07-10T21:37:32.410Z [Modules] Streaming discord_rpc@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_rpc-1.zip
+2024-07-10T21:37:32.491Z [Modules] Host is up to date.
+2024-07-10T21:37:32.491Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-10T21:37:32.493Z [Modules] No module updates available.
+2024-07-10T21:37:32.576Z [Modules] Streaming discord_rpc@1 to /home/oshiido/.config/discord/0.0.59/modules/pending/discord_rpc-1.zip: 100%
+2024-07-10T21:37:32.577Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2024-07-10T21:37:32.577Z [Modules] Installing discord_rpc@1 from /home/oshiido/.config/discord/0.0.59/modules/pending/discord_rpc-1.zip
+2024-07-10T21:37:32.583Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-07-10T21:40:17.181Z [Modules] Modules initializing
+2024-07-10T21:40:17.181Z [Modules] Distribution: remote
+2024-07-10T21:40:17.181Z [Modules] Host updates: enabled
+2024-07-10T21:40:17.181Z [Modules] Module updates: enabled
+2024-07-10T21:40:17.181Z [Modules] Module install path: /home/oshiido/.config/discord/0.0.59/modules
+2024-07-10T21:40:17.181Z [Modules] Module installed file path: /home/oshiido/.config/discord/0.0.59/modules/installed.json
+2024-07-10T21:40:17.181Z [Modules] Module download path: /home/oshiido/.config/discord/0.0.59/modules/pending
+2024-07-10T21:40:17.313Z [Modules] No updates to install
+2024-07-10T21:40:17.313Z [Modules] Checking for host updates.
+2024-07-10T21:40:17.520Z [Modules] Host is up to date.
+2024-07-10T21:40:17.520Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-10T21:40:17.555Z [Modules] No module updates available.
+2024-07-10T21:40:18.951Z [Modules] Checking for host updates.
+2024-07-10T21:40:19.085Z [Modules] Host is up to date.
+2024-07-10T21:40:19.085Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-10T21:40:19.086Z [Modules] No module updates available.
+2024-07-10T21:45:19.032Z [Modules] Modules initializing
+2024-07-10T21:45:19.032Z [Modules] Distribution: remote
+2024-07-10T21:45:19.032Z [Modules] Host updates: enabled
+2024-07-10T21:45:19.032Z [Modules] Module updates: enabled
+2024-07-10T21:45:19.032Z [Modules] Module install path: /home/oshiido/.config/discord/0.0.59/modules
+2024-07-10T21:45:19.032Z [Modules] Module installed file path: /home/oshiido/.config/discord/0.0.59/modules/installed.json
+2024-07-10T21:45:19.032Z [Modules] Module download path: /home/oshiido/.config/discord/0.0.59/modules/pending
+2024-07-10T21:45:19.167Z [Modules] No updates to install
+2024-07-10T21:45:19.167Z [Modules] Checking for host updates.
+2024-07-10T21:45:19.368Z [Modules] Host is up to date.
+2024-07-10T21:45:19.368Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-10T21:45:19.402Z [Modules] No module updates available.
+2024-07-10T21:45:21.331Z [Modules] Checking for host updates.
+2024-07-10T21:45:21.460Z [Modules] Host is up to date.
+2024-07-10T21:45:21.461Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-10T21:45:21.462Z [Modules] No module updates available.

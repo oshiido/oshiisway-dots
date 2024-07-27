@@ -1,0 +1,7 @@
+2024/07/08-21:07:12.392 468 Reusing MANIFEST /home/oshiido/.config/vesktop/sessionData/WebStorage/1/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/07/08-21:07:12.393 468 Recovering log #3
+2024/07/08-21:07:12.393 468 Reusing old log /home/oshiido/.config/vesktop/sessionData/WebStorage/1/IndexedDB/indexeddb.leveldb/000003.log 
+2024/07/08-21:18:14.474 400 Level-0 table #5: started
+2024/07/08-21:18:14.475 400 Level-0 table #5: 33846 bytes OK
+2024/07/08-21:18:14.476 400 Delete type=0 #3
+2024/07/08-21:18:14.476 400 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

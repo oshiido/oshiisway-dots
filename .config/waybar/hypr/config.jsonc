@@ -1,0 +1,137 @@
+{
+  "layer": "top",
+  "position": "left",
+  "margin": "5 2 5 5",
+  "reload_style_on_change": true,
+  "modules-left": [
+    "clock"
+  ],
+  "modules-center":[
+    "hyprland/workspaces"
+  ],
+  "modules-right":[
+  ],
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "all-outputs": false,
+    "format-icons": {
+      "1": "ñ",
+      "2": "ò",
+      "3": "ó",
+      "4": "ô",
+      "5": "õ",
+      "6": "ö",
+      "7": "÷",
+      "8": "ø",
+      "9": "ù",
+      "10": "ðñ",
+      "focused":" "
+    },
+    "persistent-workspaces": {
+    "1":[],
+    "2":[],
+    "3":[],
+    "4":[],
+    "5":[]
+    }
+  },
+  "hyprland/submap": {
+    "format": "<b>󰇘</b>",
+    "max-length": 8,
+    "tooltip": true
+  },
+  "group/info": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "custom/dmark",
+      "group/gcpu",
+      "memory",
+      "disk"
+    ]
+  },
+  "custom/dmark": {
+    "format": "",
+    "tooltip": false
+  },
+  "group/gcpu": {
+    "orientation": "inherit",
+    "modules": [
+      "custom/cpu-icon",
+      "custom/cputemp",
+      "cpu"
+    ]
+  },
+  "custom/cpu-icon": {
+    "format": "󰻠",
+    "tooltip": false
+  },
+  "custom/cputemp": {
+    "format": "{}",
+    "exec": "~/.config/waybar/bin/cputemp",
+    "interval": 10,
+    "return-type": "json"
+  },
+  "cpu": {
+    "format": "<b>{usage}󱉸</b>",
+    "on-click": "foot btop"
+  },
+  "memory": {
+    "format": "<b>  \n{:2}󱉸</b>"
+  },
+  "disk": {
+    "interval": 600,
+    "format": "<b> 󰋊 \n{percentage_used}󱉸</b>",
+    "path": "/"
+  },
+  "modules-right": [
+    "tray",
+  ],
+  "custom/recorder": {
+    "format": "{}",
+    "interval": "once",
+    "exec": "echo ''",
+    "tooltip": "false",
+    "exec-if": "pgrep 'wl-screenrec'",
+    "on-click": "recorder",
+    "signal": 4
+  },
+  "privacy": {
+    "orientation": "vertical",
+    "icon-spacing": 4,
+    "icon-size": 14,
+    "transition-duration": 250,
+    "modules": [
+      {
+        "type": "screenshare",
+        "tooltip": true,
+        "tooltip-icon-size": 24
+      }
+    ]
+  },
+  "group/brightness": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "backlight",
+      "backlight/slider"
+    ]
+  },
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
+  "clock": {
+    "format":"{:%I:%M
+  %p}",
+      "format-alt":"{:%d.%m.%Y}"
+  },
+  }
+}

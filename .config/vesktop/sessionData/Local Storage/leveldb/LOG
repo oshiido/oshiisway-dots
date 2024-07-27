@@ -1,0 +1,6 @@
+2024/07/26-19:01:32.621 feb5 Reusing MANIFEST /home/oshiido/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/07/26-19:01:32.623 feb5 Recovering log #182
+2024/07/26-19:01:32.624 feb5 Reusing old log /home/oshiido/.config/vesktop/sessionData/Local Storage/leveldb/000182.log 
+2024/07/26-19:05:32.902 feb7 Level-0 table #186: started
+2024/07/26-19:05:32.904 feb7 Level-0 table #186: 17963 bytes OK
+2024/07/26-19:05:32.905 feb7 Delete type=0 #182

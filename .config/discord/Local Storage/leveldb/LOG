@@ -1,0 +1,5 @@
+2024/07/10-14:45:19.027 572 Reusing MANIFEST /home/oshiido/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/07/10-14:45:19.028 572 Recovering log #4
+2024/07/10-14:45:19.028 572 Reusing old log /home/oshiido/.config/discord/Local Storage/leveldb/000004.log 
+2024/07/10-14:45:39.704 573 Level-0 table #7: started
+2024/07/10-14:45:39.768 573 Level-0 table #7: 3182012 bytes OK
